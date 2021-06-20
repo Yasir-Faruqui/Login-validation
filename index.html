@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login page</title>
+  <meta name="viewport:" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="background"></div>
+  <div class="container">
+      <form method="post">
+        <h2 class="header">Login</h2><br><br>
+        <div class="form-message">Login successful</div>
+        <div class="form-error">Incorrect username/password</div>
+        <input type="text" required="required" placeholder="enter id" class="email" autofocus><br>
+        <input type="password" required="required" placeholder="enter password" class="pass"><br><br>
+        <button type="submit" class="submit-btn">Continue</button><br><br>
+        <span class="forgot">Dont have an account? <a  id="createAccount">Create account here</a></span>
+      </form>
+  </div>
+
+  <div class="container-two">
+      <form method="post">
+        <h2 class="header">Create account</h2><br><br>
+        <input type="text" required="required" placeholder="New username" class="new-user" autofocus><br>
+        <input type="password" required="required" placeholder="Enter new password" class="new-pass"><br><br>
+        <input type="password" required="required" placeholder="Re-enter password" class="rep-pass"><br><br>
+        <button type="submit" class="Reg-btn">Register</button><br><br>
+      </form>
+  </div>
+</body>
+<script src="main.js"></script>
+
+</html>
